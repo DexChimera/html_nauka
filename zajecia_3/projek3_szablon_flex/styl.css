@@ -1,0 +1,45 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main
+{
+    width: 90vw;
+    margin: auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main > header
+{
+    height: 200px;
+    border: 1px solid black;
+}
+
+.main > footer
+{
+    height: 75px;
+    border: 1px solid black;
+}
+.content
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.content > aside
+{
+    width: 300px;
+    border: 1px solid black;
+    height: 3000px;
+}
+.content > section
+{
+    border: 1px solid black;
+    flex: 1;
+}

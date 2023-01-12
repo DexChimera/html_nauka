@@ -1,0 +1,89 @@
+.body{
+    margin: 0;
+    padding: 0;
+    background-image: url('./gfx/tlo.jpg');
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(2px);
+}
+
+.photos{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 25px;
+}
+
+.polaroid{
+    min-width: 240px;
+    max-width: 360px;
+    width: 80%;
+    border: 1px solid rgb(80, 80, 80);
+    background-color: rgb(245, 245, 245);
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(238,238,238,1) 100%);
+    box-shadow: 0px 0px 20px 2px rgba(80,80,80);
+    border-radius: 3px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s linear;
+}
+
+.polaroid_photo{
+    width: 100%;
+}
+
+.polaroid_photo > img{
+    width: 100%;
+}
+
+.polaroid_text{
+    font-size: 1.75em;
+    text-align: center;
+    font-family: 'Mansalva', cursive;
+}
+
+.polaroid:hover{
+    transform: rotate(0deg) scale(1.2);
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.p1{
+    transform: rotate(15deg) scale(0.8);
+}
+
+.p2{
+    transform: rotate(-12deg) scale(0.8);
+}
+
+.p3{
+    transform: rotate(-18deg) scale(0.8);
+}
+
+.p4{
+    transform: rotate(7deg) scale(0.8);
+}
+
+.p5{
+    transform: rotate(-14deg) scale(0.8);
+}
+
+
+.temp{
+    width: 800px;
+    height: 400px;
+    border: 2px solid red;
+    overflow: hidden;
+    background-image: url('./gfx/obraz_1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.temp > img {
+    width: 100%;
+}
